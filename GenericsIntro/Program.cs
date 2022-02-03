@@ -8,6 +8,9 @@ namespace GenericsIntro
         {
             MyList<string> isimler = new MyList<string>();
             isimler.Add("Emir");
+            Console.WriteLine(isimler.Length);
+            isimler.Add("Buse");
+            Console.WriteLine(isimler.Length);
         }
     }
 }
